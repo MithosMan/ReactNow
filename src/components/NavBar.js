@@ -1,3 +1,5 @@
+import Widget from './CartWidget';
+
 const Navegacion = () => {
   return (
 <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -10,6 +12,10 @@ const Navegacion = () => {
         <li><a href="#" class="nav-link px-2 link-dark">Artefactos</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Contacto</a></li>
       </ul>
+
+      <div className="widget">
+    <Widget />
+    </div>
 
       <div class="col-md-3 text-end">
         <button type="button" class="btn btn-outline-primary me-2">Login</button>
