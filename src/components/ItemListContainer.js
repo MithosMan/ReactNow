@@ -3,10 +3,10 @@ import Conteo from './ItemCount';
 
 let {propName: nombre}={propName: "Futuro listado de criaturas fantasticas"}; 
 
-function ListContainer (){
+function ListContainer (texto){
 
   const onAdd = (valor) => {
-    console.log("Compraste "+valor+" unidades")
+    console.log("Compraste "+valor+" unidades de "+texto)
   }
 
   return (
